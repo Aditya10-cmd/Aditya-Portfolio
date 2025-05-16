@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Aditya Prasad Shaw</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p id="homePara">
+          Specializing in React.js, with a strong focus on building fast, 
+          responsive, and user-centric web applications. I have hands-on experience translating UI/UX designs into clean, 
+          maintainable code using modern frontend technologies such as Tailwind CSS, JavaScript (ES6+), and React Hooks. 
+          My expertise lies in creating interactive interfaces, optimizing performance, and deploying scalable apps to platforms
+          like Netlify and Vercel.
+        </p>
+
+        <div class="social-media">
+          <a href="adityashaw8621@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/wtf__noddy_"
+            ><i class="fa-brands fa-instagram"></i></a>
+          <a href="www.linkedin.com/in/aditya-prasad-shaw-b24622248"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Aditya10-cmd"
+            ><i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1uOL6-lHJl5BlGBiYYF_kdwZp-xH2Hd8I/view?usp=share_link"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-tag">
+        <img src="images/IMG_5856.jpg" alt="" loading="eager" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/IMG_5907.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <br>
+        <h3>Frontend <span>Developer</span></h3>
+        <p>
+          I am a highly motivated Computer Science Engineering student at SRM Institute of Science and Technology, currently in my pre-final year 
+          and on track to graduate in 2026. With a strong academic record and a current CGPA of 8.82. My interests lie in software development, web technologies, and building scalable 
+          and user-friendly applications. I have developed hands-on experience through personal and academic projects, particularly in 
+          frontend development using React.js, Tailwind CSS, and modern JavaScript frameworks.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section class="service" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="service-container">
+        <div class="service-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>C/C++</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-brands fa-node-js"></i>
+          <h3>Frameworks/ Libraries</h3>
+          <ul>
+            <li>ReactJS</li>
+            <li>NodeJS</li>
+            <li>Tailwind CSS</li>
+            <li>ExpressJS</li>
+          </ul>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-brands fa-app-store"></i>
+          <h3>Coursework</h3>
+          <ul id="coursework">
+            <li>Data Structures and Algorithm</li>
+            <li>Computer Networks</li>
+            <li>OOPS</li>
+            <li>Operating System</li>
+            <li>DBMS</li>
+          </ul>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <!-- Project 1 -->
+        <div class="portfolio-box">
+          <img src="images/Todo-app.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>To Do APP</h4>
+            <p>Created Todo App with React.js</p>
+            <a href="https://react-todoapp-adi.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-box">
+          <img src="images/CurrencyConvertor.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>CurrencyConvertor</h4>
+            <p>Project with API fetch and call</p>
+            <a href="https://react-currency-converter-adi.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="portfolio-box">
+          <img src="images/Password.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>PassswordGenerator</h4>
+            <p>Generate password and copy</p>
+            <a href="https://password-generator-adi.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-box">
+          <img src="images/Razorpay.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>RazorPay Clone</h4>
+            <p>RazorPay website clone with tailwind CSS</p>
+            <a href="https://aditya-razorpayx-web-application.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="portfolio-box">
+          <img src="images/project4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Stone Paper Scissors</h4>
+            <p>Javascript Based game with Unlimited moves</p>
+            <a href="https://aditya-rock-paper-scissor.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="portfolio-box">
+          <img src="images/Guess.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Guessing Number</h4>
+            <p>In 10 attemps Guess the Number</p>
+            <a href="https://guess-the-number-adi.netlify.app">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 7 -->
+        <div class="portfolio-box">
+          <img src="images/BMI.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>BMI Calculater</h4>
+            <p>Check your BMI index</p>
+            <a href="https://bmi-calculater-adi.netlify.app/">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 8 -->
+        <div class="portfolio-box">
+          <img src="images/Start.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Start And Stop</h4>
+            <p>Change Background Color in every second</p>
+            <a href="https://start-n-stop.netlify.app">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Project 9 -->
+        <div class="portfolio-box">
+          <img src="images/Back.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Background Changer</h4>
+            <p>Click The color for Background Change</p>
+            <a href="https://bg-changer-aditya.netlify.app">
+              <i class="fa-regular fa-share-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#" id="contact-form">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" id="full-name"/>
+          <input type="email" placeholder="Email Address" id="email"/>
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" id="mobile"/>
+          <input type="text" placeholder="Email Subject" id="subject"/>
+        </div>
+
+        <textarea  id="message"
+          name=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+        <p id="response-msg"></p>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by @aditya | All rights Reserved.</p>
+      </div>
+
+      <div class="footer-icon">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </body>
+</html>
